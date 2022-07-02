@@ -26,7 +26,7 @@ function newQuote(){
     const quote = apiQuotes[Math.floor(Math.random()*apiQuotes.length)];
 
     if(!quote.author){
-        authorText.textContent='Karan Rawat';
+        authorText.textContent='Rishikesh Latthe';
     }
     else{
     authorText.textContent=quote.author;
